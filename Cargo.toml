@@ -1,0 +1,13 @@
+[package]
+name = "idfind"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "*"
+clap="4.1.6"
+rayon="1.6.1"
+walkdir="2.3.2"
